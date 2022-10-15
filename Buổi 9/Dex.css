@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Cái này là để xóa khoảng cách NHỎ XÍU ở đầu web (có hay ko cũng đc) */
+}
+.Top_header{
+    display: flex;
+    border: 3px solid;
+    justify-content: space-around;
+}
+.Top_header .logo{
+    border: 3px solid rgb(115, 192, 0);
+}
+.Top_header .list_menu{
+    border: 3px solid blue;
+}
+.Top_header .list_menu ul{
+    display: flex;
+}
+.Top_header .list_menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+.section_1{
+    background: url("url(images/xslider-1.jpg.pagespeed.ic.abj2HoBrGU.webp)");
+}
+button{
+    border: none;
+    padding: 20px;
+}

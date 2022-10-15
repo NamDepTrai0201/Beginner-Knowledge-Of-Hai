@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for(let i = 0; i < 10; i++ ){
+        //     console.log(i)
+        // }
+        //Dùng vòng lặp for để in ra các số chẵn và lẻ trong khoảng từ 0 đến 100
+        //1 là sổ lẻ 
+        //2 là số chẵn 
+        for(let i = 0; i < 100; i++){
+          if(i % 2 == 0){
+        //if(i % 2 == 1) Nếu muốn nó chỉnh số lẻ
+              console.log(i, "Số chẵn")
+          }
+          else{
+              console.log(i, "Số lẻ")
+          }
+        }
+        //Mảng trong javascript
+        let arr = [1 , "string a" , 3,5,6,7 , ["mot" , "hai" , "ba"]]
+        console.log(arr[6][1]);
+        console.log(arr[2]);
+        //thêm 1 phần vào trong mảng
+        arr.push("muoi")
+        arr.unshift("hello")
+        console.log(arr);
+        //Thay thế số 5 = string "nam"
+        arr.splice(4 , 1 ,"nam")
+        console.log(arr)
+        //Ô đầu là 4 vì ở phần thêm mảng lỡ thêm cái hello vô r =))
+        //Ô đầu là chỗ muốn thay , Ô 2 là số lượng muốn mất và thay vào và ô và là thứ muốn thay :Đ
+        
+        //Object (Đối tượng)
+        let ob = {
+            title:"Batman",
+            Act:"ABC",
+            Num:1,
+            arr:[1,2,3],
+            anotherOb:{
+                fruit:"Orange"
+            }
+        }
+        ob.test = "hello"
+        ob.Act = "DEF"
+        delete ob.Act
+        console.log(ob);
+        console.log(ob.title);
+
+        let bigArr = [{
+            email:"@a",
+            password:"123",
+        },{
+            email:"@b",
+            password:"123",
+        }]
+        console.log(bigArr[1].email);
+
+        
+        let bigOb = {
+            email:["a@a", "b@b"],
+            password:["123","asd"]
+        }
+        console.log(bigOb.email[1]);
+        //Console phải ơi bên dưới má ơiiiii , code đọc từ trên xuống dưới màaaa 
+        //Có thể sửa btw
+        //Có thể Xóa luôn (delete)
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .Hình{
+             width:  100px;
+             height: 100px;
+             border: 2px solid;
+             margin: auto;
+             margin-bottom : 20px;
+
+             
+         }
+    </style>
+</head>
+<body>
+    <div id="test">
+
+    </div>
+    <div id="square" class="Hình" onclick="changel()">
+        SQUARE
+    </div>
+    <div id="circle" class="Hình" onmousemove="changel2()">
+        CIRCLE
+    </div>
+    <!-- học về dom -->
+
+    <h1 id="get_IdDOM"></h1>
+    <h1 class = "getClassDOM"></h1>
+    <script>
+        document.getElementById("get_IdDOM").innerHTML = "ther h1 viết bằng DOMid"
+        document.getElementById("get_IdDOM").style.background = "red"
+
+        console.log(document.getElementsByClassName("getClassDOM"));
+        document.getElementsByClassName("getClassDOM")[0].innerHTML = "hehe"
+        // Phải có số phân tử mới ghi đc (ở phần 0 giống array)
+
+        let h2 = document.createElement("h2")
+        h2.innerHTML = "Thẻ h2 tạo mới nè"
+        document.getElementById("test").appendChild(h2)
+        console.log(h2);
+        // ax + b = c
+
+
+        function timX (a,b,c){
+            console.log("ax + b = c" , "là" , a , "x" , "+" , b , "=" , c);
+            console.log("x =" , (c - b)/a);
+        }
+        timX(1,2,3)
+        timX(2,3,4)
+        timX(1,5,6)
+        timX(2,8,9)
+
+        function changel(){
+          document.getElementById("square").style.background = "Pink"
+        }
+        // changel()
+
+        function changel2(){
+            document.getElementById("circle").style.background = "cyan"
+            document.getElementById("circle").style.borderRadius = "50px";
+        }
+        // changel2()
+        // nếu muốn event work thì phải bỏ cái changel2 đi
+  
+    </script>
+    
+</body>
+</html>

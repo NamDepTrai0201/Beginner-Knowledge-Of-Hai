@@ -1,0 +1,22 @@
+table , th, td {
+    border: 1px solid;
+    width: 800px;
+    text-align: center;
+    margin-left: 200px;
+}
+h1{
+    text-align: center;
+    border: 1px solid ;
+    width: 800px;
+    margin-left: 200px;
+}
+h3{
+    border: 1px solid ;
+    width: 90px;
+    text-align: center;
+    margin-left: 200px;
+}
+.Ghe{
+    border: 0px solid;
+    text-align: center;
+}

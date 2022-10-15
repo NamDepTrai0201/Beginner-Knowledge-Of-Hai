@@ -1,0 +1,9 @@
+.Container {
+    border: 2px solid black;
+}
+.Bonk {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+

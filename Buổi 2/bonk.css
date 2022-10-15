@@ -1,0 +1,9 @@
+h2{
+    text-align: center;
+}
+h2:hover{
+    cursor: pointer;
+}
+img{
+    border-radius: 50%;
+}

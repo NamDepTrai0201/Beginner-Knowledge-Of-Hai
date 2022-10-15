@@ -1,0 +1,384 @@
+.Bonk{
+    border: 0px solid;
+    width: 350px;
+    text-align: center;
+    /* margin-top: 150px; */
+}
+h4{
+    color: grey;
+}
+.Benk{
+  border: 0px solid;
+  padding: 0px;
+  width: 130px;
+  display: inline-block;
+  color: gray;
+}
+.Good{
+  width: 700px;
+}
+.Ku{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  color: black;
+}
+.Benk{
+  margin-right: 100px;
+  border: 0px solid;
+  width: 500px;
+}
+.Hình{
+  width:  200px;
+  height: 20px;
+  border: 2px solid;
+  margin: auto;
+  margin-bottom : 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+#square:hover {
+  background-color: rgb(255, 255, 79);
+}
+.empty{
+  border: 0px solid;
+  margin-top: 100px;
+  background: #8abb6a;
+  display: flex;
+  justify-content: center;
+}
+.empty img {
+  border-radius: 50%;
+  display: inline-block;
+}
+.Down{
+  color: white;
+  font-size: 2cm;
+}
+h6{
+  color: rgb(255, 238, 4);
+}
+.omg{
+  border: 0px solid;
+  width: 327px;
+  display: inline-block;
+  padding: 10px;
+}
+.Crack{
+  border: 0px solid red;
+  width: 350px;
+  text-align: center;
+  padding: 2px;
+}
+.Rt{
+  border: 0px solid blue;
+  height: 100px;
+  border-radius: 100%;
+  width: 140px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: xxx-large;
+  color: #fe7259; 
+  background-color: #ffffff;
+  margin-right: 29px;
+}
+.Contect{
+  position: absolute;
+  margin-top: 208px;
+  width: 896px;
+  color: white;
+  padding-right: 48px;
+}
+h6{
+  position: absolute;
+  width: 356px;
+  margin-top: -40px;
+  font-size: large;
+}
+.long{
+  font-size: medium;
+}
+.Jotaro{
+  border: 1px solid black;
+}
+.Dio{
+  width: 1200px;
+}
+.Kakoyin{
+  position: absolute;
+  font-family: Sansita One,serif;
+  font-size: 1.5cm;
+  color: white;
+  border: 0px solid;
+  width: 250px;
+  margin-top: 150px;
+  margin-left: 170px;
+}
+.Joshep{
+  position: absolute;
+  border: 0px solid white;
+  width: 400px;
+  margin-top: 290px;
+  margin-left: 170px;
+  color: white;
+}
+#squares:hover {
+  background-color: rgb(255, 255, 255);
+}
+.Book{
+  background-color: rgb(255, 255, 136);
+  border: 2px solid;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 170px;
+  padding-top: 13px;
+}
+.Jonathan{
+  border: 1px solid;
+  color: black;
+  width: 130px;
+  height: 50px;
+  position: absolute;
+  margin-left: 880px;
+  margin-top: 170px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 70px;
+  font-size: 0.7cm;
+  background-color: #fd7444;
+  color: #ffdb74;
+  border-color: black;
+}
+.Kar{
+  border: 0px solid ;
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  margin-left: 906px;
+  margin-top: 196px;
+  font-size: 1cm;
+  color: #ffffff;
+}
+.Wammu{
+  border: 0px solid;
+  width: 400px;
+  margin-top: 130px;
+}
+.StarPlatinum{
+  position: absolute;
+  margin-left: 599px;
+  border: 0px solid;
+  margin-top: -370px;
+}
+.ACDC{
+  font: 72.8px "Sansita One", "Sansita", sans-serif;
+  color: #fd7444;
+  padding-left: 150px;
+}
+.Iggy ,.ACDC ,.Ohh ,.Ehh{
+  line-height: 10px;
+  padding-left: 150px;
+}
+.Ohh{
+  font-family: Oswald,sans-serif;
+  font-size: 0.4cm;
+}
+.Iggy{
+  color: #928f88;
+}
+.Ehh{
+  color: #ffbb00
+}
+.Stand{
+  border: 1px solid black;
+}
+.Theworldoverheaven{
+  border: 1px solid green;
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: Sansita One,serif;
+  color: #fd7444;
+}
+.Starplatinumoverheaven{
+  border: 1px solid cyan;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 560px;
+}
+.Magicianred{
+  border: 1px solid black;
+  width: 600px;
+  background-color: rgb(235, 235, 235);
+}
+.Beach{
+  width: 250px;
+}
+.Boi{
+  position: absolute;
+  margin: 20px;
+  border: 1px solid;
+  width: 270px;
+  margin-left: 280px;
+  margin-top: -140px;
+  font-family: inherit;
+  color: #4d4d4d;
+  font-size: 0.7cm;
+}
+.Girl{
+  border: 1px solid;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 280px;
+  color: #928f88;
+  font-size: 0.6cm;
+}  
+.Void{
+  border: 1px solid black;
+  width: 600px;
+  background-color: rgb(235, 235, 235);
+}
+.Okia{
+  width: 250px;
+}
+.Man{
+  border: 1px solid;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 280px;
+  color: #928f88;
+  font-size: 0.6cm;
+}
+.Woman{
+  position: absolute;
+  margin: 20px;
+  border: 1px solid;
+  width: 270px;
+  margin-left: 280px;
+  margin-top: -140px;
+  font-family: inherit;
+  color: #4d4d4d;
+  font-size: 0.7cm;
+}
+.Kokushibou{
+  border: 1px solid;
+  margin-top:20px;
+  background-color: #f7f5f2;
+}
+.Yoriichi{
+  margin: 30px;
+}
+.icon3{
+  display: flex;
+}
+.icon4{
+  border: 1px solid;
+  position: absolute;
+  margin-top: -76px;
+  margin-left: 916px;
+  border-radius: 100%;  
+  padding: 7px;
+  background-color: #ffdb74;
+  border-color: #ffdb74
+}
+.icon5{
+  border: 1px solid;
+  position: absolute;
+  margin-top: -76px;
+  margin-left: 986px;
+  border-radius: 50%;
+  padding: 7px;
+  background-color: #ffdb74;
+  border-color: #ffdb74
+}
+.icon6{
+  border: 1px solid;
+  position: absolute;
+  margin-top: -76px;
+  margin-left: 948px;
+  border-radius: 50%;
+  padding: 7px;
+  background-color: #ffdb74;
+  border-color: #ffdb74
+}
+#icons4:hover {
+  background-color: rgb(255, 255, 255);
+}
+#icons5:hover {
+  background-color: rgb(255, 255, 255);
+}
+#icons6:hover {
+  background-color: rgb(255, 255, 255);
+}
+.linhtinh{
+  font-family: Oswald,sans-serif;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 805px;
+}
+.linhtinhv2{
+  font-family: inherit;
+  color: #928f88;
+  position: absolute;
+  margin-top: -41px;
+  margin-left: 394px;
+}
+.Welcomehomepage2{
+  border: 1px solid;
+}
+.Homepage2welcomeart{
+  width: 1199px;
+  height: 500px;
+}
+.firstwords{
+  position: absolute;
+  margin-top: 100px;
+  font-family: Sansita One,serif;
+  font-size: 1.9cm;
+  margin-left: 330px;
+  color: white;
+}
+.secondwords{
+  position: absolute;
+  margin-top: 210px;
+  font-family: Oswald,sans-serif;
+  font-size: 0.6cm;
+  margin-left: 555px;
+  color: white;
+}
+.idkwords{
+  position: absolute;
+  margin-top: 300px;
+  /* border: 1px solid blue; */
+  width: 700px;
+  margin-left: 249px;
+  text-align: center;
+  font-family: inherit;
+  color: white;
+}
+.buttonhomepage2s{
+  border: 1px solid #ffdb74;
+  width: 170px;
+  position: absolute;
+  margin-top: -130px; 
+  margin-left: 500px;
+  text-align: center;
+  background: linear-gradient(to left, transparent 50%, #ffdb74 100%) right 300%;
+  transition: background-position 0.7s, color 0.7s;
+  color: black;
+  /* background-color: #ffdb74; */
+}
+#buttonhomepage2:hover{
+  /* background: none; */
+  color: #ffdb74;
+  background-position: left;
+}
+
+
